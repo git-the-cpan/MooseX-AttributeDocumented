@@ -4,7 +4,7 @@ use warnings;
 
 package MooseX::AttributeDocumented;
 
-our $VERSION = '0.1000'; # VERSION
+our $VERSION = '0.1001'; # VERSION
 # ABSTRACT: Add Documented trait to all to attributes
 
 use Moose;
@@ -28,7 +28,7 @@ MooseX::AttributeDocumented - Add Documented trait to all to attributes
 
 =head1 VERSION
 
-Version 0.1000, released 2015-01-12.
+Version 0.1001, released 2015-01-13.
 
 =head1 SYNOPSIS
 

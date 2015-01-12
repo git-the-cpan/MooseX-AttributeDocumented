@@ -4,7 +4,7 @@ use warnings;
 
 package Moose::Meta::Attribute::Custom::Trait::Documented;
 
-our $VERSION = '0.1000'; # VERSION
+our $VERSION = '0.1001'; # VERSION
 # ABSTRACT: Register the trait
 
 sub register_implementation {
@@ -25,7 +25,7 @@ Moose::Meta::Attribute::Custom::Trait::Documented - Register the trait
 
 =head1 VERSION
 
-Version 0.1000, released 2015-01-12.
+Version 0.1001, released 2015-01-13.
 
 =head1 SOURCE
 
