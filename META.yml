@@ -25,9 +25,11 @@ requires:
   Moose: '2.0000'
   Moose::Exporter: '0'
   Moose::Role: '0'
+  MooseX::Types::Moose: '0'
+  namespace::clean: '0'
   perl: '5.010001'
 resources:
   bugtracker: https://github.com/Csson/p5-MooseX-AttributeDocumented/issues
   homepage: https://metacpan.org/release/MooseX-AttributeDocumented
   repository: https://github.com/Csson/p5-MooseX-AttributeDocumented.git
-version: '0.1001'
+version: '0.1002'

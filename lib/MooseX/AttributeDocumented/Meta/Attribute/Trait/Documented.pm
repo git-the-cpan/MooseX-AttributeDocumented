@@ -4,30 +4,34 @@ use warnings;
 
 package MooseX::AttributeDocumented::Meta::Attribute::Trait::Documented;
 
-our $VERSION = '0.1001'; # VERSION
+our $VERSION = '0.1002'; # VERSION
 # ABSTRACT: Add documentation to attributes
 
 use Moose::Role;
-Moose::Util::meta_attribute_alias('Documented');
+#Moose::Util::meta_attribute_alias('Documented');
+use MooseX::Types::Moose qw/HashRef Str Int/;
+use namespace::clean -except => 'meta';
 
 has documentation_alts => (
     is => 'rw',
-    isa => 'HashRef',
+    isa => HashRef,
     predicate => 'has_documentation_alts',
 );
 
 has documentation_default => (
     is => 'rw',
-    isa => 'Str',
+    isa => Str,
     predicate => 'has_documentation_default',
 );
 
 has documentation_order => (
     is => 'rw',
-    isa => 'Int',
+    isa => Int,
     default => 1000,
     predicate => 'has_documentation_order',
 );
+
+no Moose::Role;
 
 1;
 
@@ -43,7 +47,7 @@ MooseX::AttributeDocumented::Meta::Attribute::Trait::Documented - Add documentat
 
 =head1 VERSION
 
-Version 0.1001, released 2015-01-13.
+Version 0.1002, released 2015-01-13.
 
 =head1 SYNOPSIS
 
