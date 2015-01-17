@@ -4,7 +4,7 @@ use warnings;
 
 package MooseX::AttributeDocumented::Meta::Attribute::Trait::Documented;
 
-our $VERSION = '0.1002'; # VERSION
+our $VERSION = '0.1003'; # VERSION
 # ABSTRACT: Add documentation to attributes
 
 use Moose::Role;
@@ -47,7 +47,7 @@ MooseX::AttributeDocumented::Meta::Attribute::Trait::Documented - Add documentat
 
 =head1 VERSION
 
-Version 0.1002, released 2015-01-13.
+Version 0.1003, released 2015-01-18.
 
 =head1 SYNOPSIS
 
